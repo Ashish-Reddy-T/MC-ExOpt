@@ -1,4 +1,11 @@
-yfinance=0.2.66
 numpy
 pandas
+matplotlib
 scipy
+gymnasium
+stable-baselines3
+shimmy>=0.2.1
+streamlit
+yfinance
+tensorboard
+wandb
