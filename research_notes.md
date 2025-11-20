@@ -15,7 +15,9 @@ The Almgren-Chriss model provides a framework for optimal execution of portfolio
 
 ### Price Dynamics
 The asset price $S_t$ evolves according to an arithmetic random walk with permanent impact:
-$$ S_t = S_{t-1} + \sigma \sqrt{\tau} \xi_t - \theta \times n_t $$
+```math
+S_t = S_{t-1} + \sigma \sqrt{\tau} \xi_t - \theta \times n_t
+```
 where:
 - $\xi_t \sim N(0, 1)$ is a standard normal random variable.
 - $n_t$ is the number of shares sold in interval $t$.
