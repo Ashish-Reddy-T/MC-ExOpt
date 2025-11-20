@@ -25,12 +25,16 @@ where:
 
 ### Execution Price
 The actual execution price $\tilde{S}_t$ includes the temporary impact:
-$$ \tilde{S}_t = S_t - \eta \frac{n_t}{\tau} $$
+```math
+\tilde{S}_t = S_t - \eta \frac{n_t}{\tau}
+```
 where $\eta \frac{n_t}{\tau}$ is the temporary impact cost, proportional to the rate of trading.
 
 ### Implementation Shortfall (IS)
 The total cost of execution is defined as the difference between the initial value of the portfolio and the final cash received.
-$$ IS = X S_0 - \sum_{t=1}^N n_t \tilde{S}_t $$
+```math
+IS = X S_0 - \sum_{t=1}^N n_t \tilde{S}_t
+```
 
 ## RL Environment Design
 
